@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b52736e-1896-4a7c-80da-c3e9b5e86285" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/Zambara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/annotation/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/annotation/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/BeanContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/BeanDefinitionContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/scope/PrototypeScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/scope/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bean/scope/SingletonScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bpp/AutowiredBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bpp/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bpp/OrderBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/bpp/ScopeBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/ContextConfigurationRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/ContextConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/factory/AbstractConfiguratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/factory/BeanPostProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/factory/ConfiguratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/factory/ContextListenerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/configurator/factory/ScopeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/ApplicationInternalContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/InternalContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/state/ContextRefreshed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/state/ContextStarted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/state/ContextState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/context/state/ContextStopped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/exception/BeanNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/listener/ContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/listener/StartContextConsoleMessageContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/reader/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/reader/ClassPathBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/utils/CollectionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/utils/CollectionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/utils/ListCollectionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bubus/zambara/utils/SetCollectionConverter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2aEG1kPPq7ORfVtggOVKMHbH6kC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Zambara [install].executor": "Run",
+    "Maven.Zambara [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/davidchanzz/IdeaProjects/Zambara/src/main/java/org/bubus"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/bubus" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b52736e-1896-4a7c-80da-c3e9b5e86285" name="Changes" comment="" />
+      <created>1703876113036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703876113036</updated>
+    </task>
+    <servers />
+  </component>
+</project>
